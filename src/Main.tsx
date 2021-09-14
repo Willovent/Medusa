@@ -7,7 +7,7 @@ export const Main = () => {
     <PaperProvider
       theme={{
         ...DarkTheme,
-        colors: { ...DarkTheme.colors, primary: '#26b043' }
+        colors: { ...DarkTheme.colors, primary: '#008647' }
       }}
     >
       <RootNavigator />

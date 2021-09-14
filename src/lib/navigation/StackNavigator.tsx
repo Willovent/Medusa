@@ -1,9 +1,11 @@
 import React from 'react';
 import { AppHeader } from './AppHeader';
-import { Stack } from './RootNavigator';
 import { Settings } from '../pages/Settings';
+import { createStackNavigator } from '@react-navigation/stack';
 import { Series } from '../pages/Series';
 import { Serie } from '../pages/Serie';
+
+export const Stack = createStackNavigator();
 
 export const StackNavigator = () => {
   return (
