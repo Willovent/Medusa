@@ -1,3 +1,14 @@
+export interface LiteSerie {
+  slug: string;
+  title: string;
+  language: string;
+  location: string;
+  posterUri: string;
+  bannerUri: string;
+  fanartUri: string,
+  genres: string[];
+  year: Year;
+}
 
 export interface SeriesResponse {
   indexer: Indexer;
